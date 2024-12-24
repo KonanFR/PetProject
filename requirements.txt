@@ -4,3 +4,4 @@ pytest_steps
 unidiff
 gitpython
 ruff
+webdriver-manager

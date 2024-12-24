@@ -2,7 +2,11 @@ import json
 import os
 
 import pytest
-from selenium.webdriver.chrome.webdriver import WebDriver
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+
 
 
 @pytest.fixture(scope='session')
@@ -17,7 +21,15 @@ def config():
 @pytest.fixture
 def browser(config):
     """Fixture to provide browser object for tests."""
-    browser = WebDriver()
-    browser.get(config['base_url'])
-    yield browser
-    browser.quit()
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--window-size=1920,1080")  # Set window size
+
+    driver = webdriver.Chrome(
+        service=Service(ChromeDriverManager().install()),
+        options=chrome_options
+    )
+    driver.get(config['base_url'])
+    yield driver
+    driver.quit()
