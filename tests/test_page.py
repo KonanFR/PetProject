@@ -1,4 +1,4 @@
-from Pages.hvac_page import HvacPage
+from pages.hvac_page import HvacPage
 
 
 class TestHomeBuddyPage:
@@ -14,4 +14,3 @@ class TestHomeBuddyPage:
         hvac_page.click_on_button(HvacPage.page_button("No"))
         hvac_page.check_message(hvac_page.sorry_message_text)
         hvac_page.click_on_button(HvacPage.page_button("Go to homepage"))
-
