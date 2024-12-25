@@ -5,3 +5,5 @@ unidiff
 gitpython
 ruff
 webdriver-manager
+pytest-xdist
+junitxml

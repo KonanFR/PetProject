@@ -1,5 +1,6 @@
 import json
 import os
+import logging
 
 import pytest
 from selenium import webdriver
@@ -22,7 +23,7 @@ def config():
 def browser(config):
     """Fixture to provide browser object for tests."""
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    # chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--window-size=1920,1080")  # Set window size
 
@@ -33,3 +34,8 @@ def browser(config):
     driver.get(config['base_url'])
     yield driver
     driver.quit()
+
+def pytest_configure():
+    """Setup live logging for tests."""
+    logging.basicConfig(level=logging.DEBUG, format="%(asctime)s | [%(levelname)-7s]: %(message)s")
+    logging.getLogger().info("Live logging test setup complete")

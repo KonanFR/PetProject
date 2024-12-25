@@ -59,4 +59,4 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest --tb=short --disable-warnings
+        pytest -n 2 -s --tb=short --disable-warnings --junitxml=report.xml
