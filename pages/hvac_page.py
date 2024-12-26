@@ -2,6 +2,7 @@ from typing import Tuple
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.webdriver import WebDriver
+from selenium.webdriver.common.keys import Keys
 
 from shared.e2e_steps import get_element
 
@@ -29,18 +30,23 @@ class HvacPage:
                   f'//label[contains(@for, "{for_attr}")]'
     )
 
-    def fill_input(self, text: str, label_attr: str, id_attr: str) -> None:
+    def fill_input(self, text: str, label_attr: str, id_attr: str, clear_input: bool = False) -> None:
         """Fill in zip code.
 
         Args:
             text: Zip code to fill in.
             label_attr: Label for the input.
             id_attr: ID attribute for the input.
+            clear_input: Clear the input field before filling in.
 
         Returns:
             None.
         """
-        get_element(self.browser, HvacPage.label_element(label_attr)).click()
+        element = get_element(self.browser, HvacPage.label_element(label_attr))
+        element.click()
+        if clear_input:
+            input_value = get_element(self.browser, HvacPage.input_element(id_attr)).get_attribute("value")
+            element.send_keys(Keys.BACKSPACE * len(input_value))
         get_element(self.browser, HvacPage.input_element(id_attr)).send_keys(text)
 
     def click_on_button(self, selector: Tuple[By, str]) -> None:
@@ -67,7 +73,7 @@ class HvacPage:
         get_element(self.browser, HvacPage.message_selector(message), to_disappear=to_disappear)
 
     def check_field_validation_message(self, message: str, attr_value: str) -> None:
-        """Check field validation message.
+        """Check field validation message for name and email fields.
 
         Args:
             message: Validation message to check.

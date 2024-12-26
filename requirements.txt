@@ -7,3 +7,4 @@ ruff
 webdriver-manager
 pytest-xdist
 junitxml
+colorlog

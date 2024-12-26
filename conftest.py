@@ -1,6 +1,7 @@
 import json
 import os
 import logging
+import colorlog
 
 import pytest
 from selenium import webdriver
@@ -37,5 +38,15 @@ def browser(config):
 
 def pytest_configure():
     """Setup live logging for tests."""
-    logging.basicConfig(level=logging.DEBUG, format="%(asctime)s | [%(levelname)-7s]: %(message)s")
+    handler = colorlog.StreamHandler()
+    handler.setFormatter(colorlog.ColoredFormatter(
+        "%(log_color)s%(asctime)s | [%(levelname)-7s]: %(message)s",
+        log_colors={
+            'INFO': 'green',
+            'WARNING': 'yellow',
+            'ERROR': 'red',
+            'CRITICAL': 'red',
+        }
+    ))
+    logging.basicConfig(level=logging.INFO, handlers=[handler])
     logging.getLogger().info("Live logging test setup complete")
