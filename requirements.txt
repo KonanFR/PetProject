@@ -1,0 +1,10 @@
+pytest
+selenium
+pytest_steps
+unidiff
+gitpython
+ruff
+webdriver-manager
+pytest-xdist
+junitxml
+colorlog

@@ -1,0 +1,32 @@
+
+exclude = [
+    "venv",
+    "*_config.py",
+]
+line-length = 120
+
+[lint]
+
+preview = false
+
+select = [
+    "D", # pydocstyle
+    "E", # pycodestyle errors
+    "F", # pyflakes
+    "W", # pycodestyle warnings
+    "PL", # pylint
+    "SLF", # flake8-self
+    "BLE", # flake8-blind-except
+]
+
+
+ignore = [
+    "D100",
+    "D104",
+    "E731",
+    "PLR0912"
+]
+
+[lint.pydocstyle]
+# Use Google-style docstrings.
+convention = "google"
