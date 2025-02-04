@@ -1,4 +1,4 @@
-INFO     WDM:logger.py:11 xdist worker is: gw1
+INFO     WDM:logger.py:11 xdist worker is: gw2
 INFO     WDM:logger.py:11 ====== WebDriver manager ======
 INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
 INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
@@ -9,7 +9,7 @@ INFO     WDM:logger.py:11 Modern chrome version https://storage.googleapis.com/c
 INFO     WDM:logger.py:11 About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/linux64/chromedriver-linux64.zip
 INFO     WDM:logger.py:11 Driver downloading response is 200
 INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
-INFO     WDM:logger.py:11 Driver has been saved in cache [/home/runner/.wdm/gw1/drivers/chromedriver/linux64/132.0.6834.159]
+INFO     WDM:logger.py:11 Driver has been saved in cache [/home/runner/.wdm/gw2/drivers/chromedriver/linux64/132.0.6834.159]
 INFO     shared.step_logger:step_logger.py:12 
 ============================ When user fill zip code and click on 'Get estimate' button step started. ============================
 INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//label[contains(@for, "zipCode")]') started.
