@@ -2,13 +2,18 @@ import json
 import os
 import logging
 import colorlog
+import allure
 
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
+from pluggy import HookimplMarker
 
+from shared.step_wrapper import AllureReporter
+
+hookimpl = HookimplMarker("tests")
 
 
 @pytest.fixture(scope='session')
@@ -50,3 +55,13 @@ def pytest_configure():
     ))
     logging.basicConfig(level=logging.INFO, handlers=[handler])
     logging.getLogger().info("Live logging test setup complete")
+
+@pytest.fixture
+def reporter():
+    """Fixture to provide AllureReporter instance."""
+    return AllureReporter()
+
+@hookimpl
+def title(data: str):
+    """Hook implementation to set title for test cases."""
+    return allure.title(data)
