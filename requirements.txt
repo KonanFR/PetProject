@@ -8,3 +8,4 @@ webdriver-manager
 pytest-xdist
 junitxml
 colorlog
+allure-pytest
