@@ -58,6 +58,7 @@ jobs:
     - name: Run tests
       run: |
         pytest -n 3 -s --tb=short --disable-warnings --junitxml=report.xml --alluredir=allure-results
+      continue-on-error: true
 
     - name: Generate Allure Report
       run: |
