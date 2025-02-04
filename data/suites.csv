@@ -1,4 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"Test the HomeBuddy page.","49849","test_contractor_not_found_flow","tests","Tue Feb 04 16:18:52 UTC 2025","passed","Tue Feb 04 16:19:42 UTC 2025","TestHomeBuddyPage","test_page","",""
-"Test the HomeBuddy page.","15687","test_get_contractor_flow_wrong_name_email[test_data0]","tests","Tue Feb 04 16:18:52 UTC 2025","passed","Tue Feb 04 16:19:08 UTC 2025","TestHomeBuddyPage","test_page","",""
-"Test the HomeBuddy page.","15937","test_get_contractor_flow_wrong_name_email[test_data1]","tests","Tue Feb 04 16:18:53 UTC 2025","passed","Tue Feb 04 16:19:08 UTC 2025","TestHomeBuddyPage","test_page","",""
+"Test the HomeBuddy page.","17461","test_get_contractor_flow_wrong_name_email[test_data1]","tests","Tue Feb 04 16:23:13 UTC 2025","passed","Tue Feb 04 16:23:31 UTC 2025","TestHomeBuddyPage","test_page","",""
+"Test the HomeBuddy page.","50179","test_contractor_not_found_flow","tests","Tue Feb 04 16:23:13 UTC 2025","passed","Tue Feb 04 16:24:03 UTC 2025","TestHomeBuddyPage","test_page","",""
+"Test the HomeBuddy page.","16527","test_get_contractor_flow_wrong_name_email[test_data0]","tests","Tue Feb 04 16:23:14 UTC 2025","passed","Tue Feb 04 16:23:30 UTC 2025","TestHomeBuddyPage","test_page","",""
