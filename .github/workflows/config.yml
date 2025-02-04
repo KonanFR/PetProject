@@ -45,18 +45,28 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Install Chrome
+    - name: Install Allure Commandline
       run: |
-        sudo apt-get update
-        sudo apt-get install -y google-chrome-stable
-
-    - name: Install ChromeDriver
-      run: |
-        pip install chromedriver-autoinstaller
+        curl -o allure-commandline.zip -L "https://github.com/allure-framework/allure2/releases/download/2.32.2/allure-2.32.2.zip"
+        unzip allure-commandline.zip
+        sudo mv allure-2.32.2 /opt/allure
+        sudo ln -s /opt/allure/bin/allure /usr/local/bin/allure
 
     - name: Set PYTHONPATH
       run: echo "PYTHONPATH=$(pwd)" >> $GITHUB_ENV
 
     - name: Run tests
       run: |
-        pytest -n 3 -s --tb=short --disable-warnings --junitxml=report.xml
+        pytest -n 3 -s --tb=short --disable-warnings --junitxml=report.xml --alluredir=allure-results
+      continue-on-error: true
+
+    - name: Generate Allure Report
+      run: |
+        allure generate allure-results -o allure-report --clean
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
+        publish_dir: allure-report
