@@ -1,4 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"Test the HomeBuddy page.","52333","Test contractor not found flow.","tests","Tue Feb 04 22:19:56 UTC 2025","passed","Tue Feb 04 22:20:49 UTC 2025","TestHomeBuddyPage","test_page","",""
-"Test the HomeBuddy page.","17831","Test contractor not found flow with name Veeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeery looooooooooooooooooooong and email test@email.","tests","Tue Feb 04 22:19:56 UTC 2025","passed","Tue Feb 04 22:20:14 UTC 2025","TestHomeBuddyPage","test_page","",""
-"Test the HomeBuddy page.","19156","Test contractor not found flow with name BrandonFaircloth and email testemail.com.","tests","Tue Feb 04 22:19:57 UTC 2025","passed","Tue Feb 04 22:20:16 UTC 2025","TestHomeBuddyPage","test_page","",""
+"Test the HomeBuddy page.","51030","Test contractor not found flow.","tests","Tue Feb 04 22:22:41 UTC 2025","passed","Tue Feb 04 22:23:32 UTC 2025","TestHomeBuddyPage","test_page","",""
+"Test the HomeBuddy page.","17970","Test contractor not found flow with name Veeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeery looooooooooooooooooooong and email test@email.","tests","Tue Feb 04 22:22:41 UTC 2025","passed","Tue Feb 04 22:22:59 UTC 2025","TestHomeBuddyPage","test_page","",""
+"Test the HomeBuddy page.","16801","Test contractor not found flow with name BrandonFaircloth and email testemail.com.","tests","Tue Feb 04 22:22:41 UTC 2025","passed","Tue Feb 04 22:22:58 UTC 2025","TestHomeBuddyPage","test_page","",""
