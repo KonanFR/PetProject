@@ -1,7 +1,7 @@
-# HomeBuddy test task
+# Pet project
 
 ## Description
-Created a repo from scratch and wrote several E2E tests.
+Simple test framework built with pytest and Selenium.
 
 ## Prerequisites
 - Python 3.x
