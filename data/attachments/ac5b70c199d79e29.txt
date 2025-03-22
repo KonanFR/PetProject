@@ -1,0 +1,135 @@
+INFO     WDM:logger.py:11 xdist worker is: gw1
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 There is no [linux64] chromedriver "134.0.6998.165" for browser google-chrome "134.0.6998" in cache
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 WebDriver version 134.0.6998.165 selected
+INFO     WDM:logger.py:11 Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/linux64/chromedriver-linux64.zip
+INFO     WDM:logger.py:11 About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/linux64/chromedriver-linux64.zip
+INFO     WDM:logger.py:11 Driver downloading response is 200
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver has been saved in cache [/home/runner/.wdm/gw1/drivers/chromedriver/linux64/134.0.6998.165]
+INFO     shared.step_wrapper:step_wrapper.py:12 [STEP]: When user fill zip code and click on 'Get estimate' button -- started.
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//label[contains(@for, "zipCode")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//label[contains(@for, "zipCode")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//label[contains(@for, "zipCode")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//input[contains(@id, "zipCode")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//input[contains(@id, "zipCode")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//input[contains(@id, "zipCode")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Get estimate")]//ancestor::*[contains(@class, "customButton")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//*[contains(@class, "customButton__text") and contains(string(), "Get estimate")]//ancestor::*[contains(@class, "customButton")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Get estimate")]//ancestor::*[contains(@class, "customButton")]').
+INFO     shared.step_wrapper:step_wrapper.py:20 [STEP]: When user fill zip code and click on 'Get estimate' button -- finished.
+INFO     shared.step_wrapper:step_wrapper.py:12 [STEP]: When user clicks on 'Repair' tile and 'Next' button -- started.
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//input/following-sibling::label[contains(string(), "Repair")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//input/following-sibling::label[contains(string(), "Repair")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//input/following-sibling::label[contains(string(), "Repair")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//div[contains(string(), "Unfortunately, our contractors only do HVAC replacement. Would you still like to continue?")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//div[contains(string(), "Unfortunately, our contractors only do HVAC replacement. Would you still like to continue?")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//div[contains(string(), "Unfortunately, our contractors only do HVAC replacement. Would you still like to continue?")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Yes")]//ancestor::*[contains(@class, "customButton")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//*[contains(@class, "customButton__text") and contains(string(), "Yes")]//ancestor::*[contains(@class, "customButton")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Yes")]//ancestor::*[contains(@class, "customButton")]').
+INFO     shared.step_wrapper:step_wrapper.py:20 [STEP]: When user clicks on 'Repair' tile and 'Next' button -- finished.
+INFO     shared.step_wrapper:step_wrapper.py:12 [STEP]: When user clicks on 'Air conditioner' tile and 'Next' button -- started.
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//input/following-sibling::label[contains(string(), "Air conditioner")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//input/following-sibling::label[contains(string(), "Air conditioner")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//input/following-sibling::label[contains(string(), "Air conditioner")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]').
+INFO     shared.step_wrapper:step_wrapper.py:20 [STEP]: When user clicks on 'Air conditioner' tile and 'Next' button -- finished.
+INFO     shared.step_wrapper:step_wrapper.py:12 [STEP]: When user clicks on 'Less than 5 years' tile and 'Next' button -- started.
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//input/following-sibling::label[contains(string(), "Less than 5 ")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//input/following-sibling::label[contains(string(), "Less than 5 ")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//input/following-sibling::label[contains(string(), "Less than 5 ")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]').
+INFO     shared.step_wrapper:step_wrapper.py:20 [STEP]: When user clicks on 'Less than 5 years' tile and 'Next' button -- finished.
+INFO     shared.step_wrapper:step_wrapper.py:12 [STEP]: When user clicks on 'Detached' tile and 'Next' button -- started.
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//input/following-sibling::label[contains(string(), "Detached")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//input/following-sibling::label[contains(string(), "Detached")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//input/following-sibling::label[contains(string(), "Detached")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]').
+INFO     shared.step_wrapper:step_wrapper.py:20 [STEP]: When user clicks on 'Detached' tile and 'Next' button -- finished.
+INFO     shared.step_wrapper:step_wrapper.py:12 [STEP]: When user fills input and clicks 'Next' button -- started.
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//label[contains(@for, "squareFeet")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//label[contains(@for, "squareFeet")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//label[contains(@for, "squareFeet")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//input[contains(@id, "squareFeet")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//input[contains(@id, "squareFeet")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//input[contains(@id, "squareFeet")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]').
+INFO     shared.step_wrapper:step_wrapper.py:20 [STEP]: When user fills input and clicks 'Next' button -- finished.
+INFO     shared.step_wrapper:step_wrapper.py:12 [STEP]: When user clicks on 'Yes' tile and 'Next' button -- started.
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//input/following-sibling::label[contains(string(), "Yes")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//input/following-sibling::label[contains(string(), "Yes")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//input/following-sibling::label[contains(string(), "Yes")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]').
+INFO     shared.step_wrapper:step_wrapper.py:20 [STEP]: When user clicks on 'Yes' tile and 'Next' button -- finished.
+INFO     shared.step_wrapper:step_wrapper.py:12 [STEP]: When user fills 'Full Name' and 'Email' fields and clicks 'Next' button -- started.
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//label[contains(@for, "fullName")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//label[contains(@for, "fullName")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//label[contains(@for, "fullName")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//input[contains(@id, "fullName")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//input[contains(@id, "fullName")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//input[contains(@id, "fullName")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//label[contains(@for, "email")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//label[contains(@for, "email")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//label[contains(@for, "email")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//input[contains(@id, "email")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//input[contains(@id, "email")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//input[contains(@id, "email")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Next")]//ancestor::*[contains(@class, "customButton")]').
+INFO     shared.step_wrapper:step_wrapper.py:20 [STEP]: When user fills 'Full Name' and 'Email' fields and clicks 'Next' button -- finished.
+INFO     shared.step_wrapper:step_wrapper.py:12 [STEP]: When user fills incorrect phone number and clicks 'Submit my request' button -- started.
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//label[contains(@for, "phoneNumber")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//label[contains(@for, "phoneNumber")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//label[contains(@for, "phoneNumber")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//input[contains(@id, "phoneNumber")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//input[contains(@id, "phoneNumber")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//input[contains(@id, "phoneNumber")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Submit my request")]//ancestor::*[contains(@class, "customButton")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//*[contains(@class, "customButton__text") and contains(string(), "Submit my request")]//ancestor::*[contains(@class, "customButton")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Submit my request")]//ancestor::*[contains(@class, "customButton")]').
+INFO     shared.step_wrapper:step_wrapper.py:20 [STEP]: When user fills incorrect phone number and clicks 'Submit my request' button -- finished.
+INFO     shared.step_wrapper:step_wrapper.py:12 [STEP]: Then validation message is displaying -- started.
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//div[contains(string(), "Phone number must be 10 digits long.")]//ancestor::div[contains(@data-status, "invalid")]//label[contains(@for, "phoneNumber")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//div[contains(string(), "Phone number must be 10 digits long.")]//ancestor::div[contains(@data-status, "invalid")]//label[contains(@for, "phoneNumber")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//div[contains(string(), "Phone number must be 10 digits long.")]//ancestor::div[contains(@data-status, "invalid")]//label[contains(@for, "phoneNumber")]').
+INFO     shared.step_wrapper:step_wrapper.py:20 [STEP]: Then validation message is displaying -- finished.
+INFO     shared.step_wrapper:step_wrapper.py:12 [STEP]: When user fills correct phone number and clicks 'Submit my request' button -- started.
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//label[contains(@for, "phoneNumber")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//label[contains(@for, "phoneNumber")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//label[contains(@for, "phoneNumber")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//input[contains(@id, "phoneNumber")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//input[contains(@id, "phoneNumber")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//input[contains(@id, "phoneNumber")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//input[contains(@id, "phoneNumber")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//input[contains(@id, "phoneNumber")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//input[contains(@id, "phoneNumber")]').
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Submit my request")]//ancestor::*[contains(@class, "customButton")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//*[contains(@class, "customButton__text") and contains(string(), "Submit my request")]//ancestor::*[contains(@class, "customButton")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Submit my request")]//ancestor::*[contains(@class, "customButton")]').
+INFO     shared.step_wrapper:step_wrapper.py:20 [STEP]: When user fills correct phone number and clicks 'Submit my request' button -- finished.
+INFO     shared.step_wrapper:step_wrapper.py:12 [STEP]: Then 'Go to homepage' button displaying -- started.
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//div[contains(string(), "We are searching for a contractor for you...")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:46 Check if element '('xpath', '//div[contains(string(), "We are searching for a contractor for you...")]')' is either invisible or not present on the DOM.
+INFO     shared.step_wrapper:step_wrapper.py:20 [STEP]: Then 'Go to homepage' button displaying -- finished.
+INFO     shared.step_wrapper:step_wrapper.py:12 [STEP]: When user clicks on 'Go to homepage' button -- started.
+INFO     shared.e2e_steps:e2e_steps.py:22 Waiting for element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Go to homepage")]//ancestor::*[contains(@class, "customButton")]') started.
+INFO     shared.e2e_steps:e2e_steps.py:53 Check if element '//*[contains(@class, "customButton__text") and contains(string(), "Go to homepage")]//ancestor::*[contains(@class, "customButton")]' is present on the DOM of a page
+INFO     shared.e2e_steps:e2e_steps.py:28 Trying to find element ('xpath', '//*[contains(@class, "customButton__text") and contains(string(), "Go to homepage")]//ancestor::*[contains(@class, "customButton")]').
+INFO     shared.step_wrapper:step_wrapper.py:20 [STEP]: When user clicks on 'Go to homepage' button -- finished.
+INFO     shared.step_wrapper:step_wrapper.py:12 [STEP]: Then correct page opened -- started.
+INFO     shared.step_wrapper:step_wrapper.py:20 [STEP]: Then correct page opened -- finished.
