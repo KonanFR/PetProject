@@ -3,6 +3,8 @@
 ## Description
 Simple test framework built with pytest and Selenium.
 
+Latest test results can be found [here](https://konanfr.github.io/PetProject/).
+
 ## Prerequisites
 - Python 3.x
 - pip (Python package installer)
